@@ -42,7 +42,7 @@ Ao fazer este exercício, fique conferindo, no navegador, como a página está f
      - Remova a margem superior do título `h1` (_i.e._, defina-a como `0`)
      - Coloque uma cor legal para o texto (usei `gold`)
      - Coloque uma sombra no texto (usei uma preta, deslocada 2px para direita e para baixo)
-1. Coloque a imagem de fundo no `body` ( vide [exemplo] (https://github.com/willsallum/cefet_front_end/tree/main/classes/html4#1%C2%AA-tentativa))
+1. Coloque a imagem de fundo no `body` ( vide [exemplo](https://github.com/willsallum/cefet_front_end/tree/main/classes/html4#1%C2%AA-tentativa))
    - Deixe-a ancorada no canto esquerdo inferior (`left bottom`)
      - Motivo: o Barba-Ruiva está nesse mesmo canto, então, se ancorarmos por lá, ele estará sempre visível na página, independente do tamanho da janela do navegador
    - Faça-a cobrir todo o espaço disponível (`cover`)
