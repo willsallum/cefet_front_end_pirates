@@ -19,9 +19,12 @@ tesouros seguindo os passos descritos a seguir.
    - Por que dar o nome de `index.html`?
      - Veja o [FAQ](#faq)
 
-Agora, você deve (a) criar a estrutura básica do documento HTML (`DOCTYPE`,
-_tags_ HTML, HEAD, BODY vazias), (b) colocar um título da página na aba do
-navegador e (c) colocar a imagem `calice.ico` como ícone.
+Agora, você deve 
+- (a) criar a estrutura básica do documento HTML (`DOCTYPE`,
+_tags_ HTML, HEAD, BODY vazias), 
+- (b) colocar um título da página na aba do
+navegador e 
+- (c) colocar a imagem `calice.ico` como ícone.
 
 Teste a sua página, abrindo-a no navegador.
 
@@ -39,7 +42,7 @@ Ao fazer este exercício, fique conferindo, no navegador, como a página está f
      - Remova a margem superior do título `h1` (_i.e._, defina-a como `0`)
      - Coloque uma cor legal para o texto (usei `gold`)
      - Coloque uma sombra no texto (usei uma preta, deslocada 2px para direita e para baixo)
-1. Coloque a imagem de fundo no `body`
+1. Coloque a imagem de fundo no `body` ( vide [exemplo] (https://github.com/willsallum/cefet_front_end/tree/main/classes/html4#1%C2%AA-tentativa))
    - Deixe-a ancorada no canto esquerdo inferior (`left bottom`)
      - Motivo: o Barba-Ruiva está nesse mesmo canto, então, se ancorarmos por lá, ele estará sempre visível na página, independente do tamanho da janela do navegador
    - Faça-a cobrir todo o espaço disponível (`cover`)
@@ -64,12 +67,11 @@ Ao fazer este exercício, fique conferindo, no navegador, como a página está f
    - Eu sempre prefiro a forma mais curta (a primeira), quando as margens laterais (esquerda e direita) são iguais e as verticais também (cima e baixo) :wink:
 
 
-
-[alinhamento-texto]: https://willsallum.github.io/cefet_front_end/classes/html1/#css-alinhamentoTexto
+[alinhamento-texto]: https://willsallum.github.io/cefet_front_end/classes/html1/#entendendo-o-estilo-alinhamento-do-texto
 
 ## Exercício 3: a **tabela**
 
-1. Crie a **estrutura básica da tabela** com a _tag_ `table` e as _tags_ `caption`, `thead`, `tbody` e `tfoot` vazias
+1. Crie a **estrutura básica da tabela** com a _tag_ `table` e as _tags_ `caption`, `thead`, `tbody` e `tfoot` vazias (vide [exemplo](https://willsallum.github.io/cefet_front_end/classes/html3/#cabe%C3%A7alho-corpo-e-rodap%C3%A9))
    1. A legenda deve conter: _"Estes são os tesouros acumulados do Barba-Ruiva em suas aventuras"_ (sem as áspas)
 1. Crie o cabeçalho, dentro da _tag_ `thead`
    - O cabeçalho contém apenas 1 linha (`tr`)
@@ -107,7 +109,7 @@ Ao fazer este exercício, fique conferindo, no navegador, como a página está f
         - Valor unitário: não tem preço
         - Quantidade: 7
         - Valor total: -
-1. Crie o rodapé, contendo 1 linha. Essa linha deve possuir apenas 2 células/colunas, sendo que **a primeira deve ocupar 4 colunas** (_i.e._, mescle-as)
+1. Crie o rodapé, contendo 1 linha. Essa linha deve possuir apenas 2 células/colunas, sendo que **a primeira deve ocupar 4 colunas** (_i.e._, [mescle-as](https://willsallum.github.io/cefet_front_end/classes/html3/#mesclando-c%C3%A9lulas-horizontais-e-verticais))
 1. Centralize a tabela
    - Basta definir as margens laterais como tendo "tamanho automático":
      ```css
